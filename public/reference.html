@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgen Basketball</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+          
+            
+        }
+        body{
+            background-image: url("../images/background.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 300%;
+            
+            
+            
+        }
+        #logo{
+            width: 150px;
+           
+        }
+        .head{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        h2{
+            color:white;
+            font-weight: bold;
+            font-size: 48px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 8px;
+            color:white;
+            gap:10px
+           
+        }
+        .container2{
+            display: flex;
+            width: 100%;
+            height: 300px;
+            margin-left: 5px;
+            gap: 5px;
+            
+        }
+        .item{
+            position: relative;
+            flex:1;
+        
+        }
+        .person{
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            width: 30%;
+            display: inline-block;
+          
+            height: 100%;
+            
+        }
+        .person img{
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+           
+        }
+        
+        .oppinon{
+            position: absolute;
+            width:68% ;
+            text-align: left;
+            display: inline-block;
+            height: 100%;
+            left:30%;
+            margin-left:2%;
+        }
+        h3{
+            color:aqua;
+            margin-bottom: 4px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        span{
+            color: #FFFFF0;
+        }
+        footer{
+            color: aquamarine;
+            margin-top: 25px;
+        }
+        #deniz{
+            object-position: 50% 50%;
+        }
+        @media(max-width:700px){
+           .container{
+            gap: 10px;
+           }
+            .container2{
+            flex-direction: column;
+                gap: 10px;
+                height: 600px;
+           }
+           #deniz{
+            object-position: 50% 50%;
+           }
+           .item{
+            height: 300px;
+           }
+           
+        }
+        
+        
+        
+        
+    </style>
+
+</head>
+<body>
+    <div class="head">
+        <a href="../index.html"><img id="logo" src="../images/logo_trans.png" alt="logo"></a>
+        <h2>References</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="container2">
+            <div class="item">
+                <div class="person">
+                    <img src="../images/shane1.jpg" alt="picture" style="object-position: 53% 1000%;">
+                </div>
+                <div class="oppinon">
+                        <h3>Shane Larkin</h3>
+                       <span>
+                        I highly recommend Tolga, who has been my personal basketball trainer for 8 months.
+                        He have significantly improved my skills and game strategy,
+                        always tailoring sessions to my needs. Tolga's expertise, dedication,
+                        and motivational coaching style have greatly enhanced my performance and deepened my
+                        love for the game. Any athlete would benefit from his training.
+                       </span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="person">
+                    <img src="../images/mito1.jpeg" alt="picture">
+                </div>
+                <div class="oppinon">
+                    <h3>Mithat Can Dilmen</h3>
+                    <span>
+                    
+                        
+                        I strongly recommend Atahan, who has been my personal basketball trainer for the past 2 years.
+                         He has significantly enhanced my skills and game strategy, consistently tailoring sessions to fit my specific needs. Tolga's expertise, dedication, and motivational coaching style have tremendously improved my performance and deepened my passion for the game.
+                         Any athlete would greatly benefit from his training.</span>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="item">
+                <div class="person">
+                    <img src="../images/ömer1.jpeg" alt="picture">
+                </div>
+                <div class="oppinon">
+                    <h3>Ömer Faruk Konak</h3>
+                    <span>
+                        I enthusiastically endorse Osman, my personal basketball trainer for the last 4 year.
+                         He has dramatically improved my skills and game strategy,
+                          always customizing sessions to meet my individual needs.
+                         Also he showed me how to be a leader . 
+                         Osman’s expertise, commitment, and motivational
+                         approach have significantly boosted my performance and strengthened my love for the game.
+                         Any athlete would gain immensely from his training.
+                    </span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="person">
+                    <img id="deniz" src="../images/özgür1.jpeg" alt="picture" style="object-position:50% 100%;">
+                </div>
+                <div class="oppinon">
+                    <h3>Özgür Deniz Şahin</h3>
+                    <span>
+                        I wholeheartedly recommend Tolga, my personal basketball trainer for the past 4 years.
+                         He has significantly enhanced my skills and game strategy, always tailoring sessions to my specific needs.
+                          Furthermore, he has taught me valuable leadership skills. 
+                          Tolga’s expertise, dedication, and motivational style have greatly improved
+                           my performance and deepened my passion for the game.
+                         Any athlete would benefit immensely from his training.
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+
+        
+    </div>
+    <footer>
+        <center> Copyright © OGA Production</center>
+     </footer>
+
+</body>
+</html>

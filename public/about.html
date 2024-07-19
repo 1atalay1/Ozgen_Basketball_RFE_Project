@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgen Basketball</title>
+    <style>
+        *{  margin: 0px;
+            padding: 0px;
+        }
+        
+        body{
+            background-image: url("../images/background.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+        }
+        #logo{
+            width: 150px;
+           
+        }
+        .head{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        h2{
+            color:white;
+            font-weight: bold;
+            font-size: 48px;
+        }
+        .trainers{
+            margin-top: 10px;
+            display: flex;
+            color:white;
+            width: 100%;
+            justify-content: space-around;
+            gap: 10px;
+        }
+        .ata ,.tolga,.osman{
+            flex:1;
+            text-align: center;
+            overflow: hidden;
+        }
+        .trainers hr{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-bottom: 0px;
+        }
+        .trainers div img{
+        width: 100%;
+        
+        object-fit: cover; /* Resmin container'a sığmasını sağlar ve kesme yapabilir */
+        display: block;
+            margin-top: 3px;
+        }
+        .trainers div p{
+            font-size: 20px;
+            text-align: center;
+            color:aliceblue;
+            margin: 0px;
+            
+        }
+        footer{
+            margin-top: 15px;
+            color:aquamarine;
+        }
+        .trainers h3{
+            color:aqua;
+        }
+        @media(max-width:600px){
+            .trainers{
+                flex-direction: column;
+                gap: 25px;
+               
+            }
+            .trainers h3{
+                color: aqua;
+            }
+            .trainers div p{
+                color:whitesmoke;
+            }
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+        <div class="head">
+            <a href="../index.html"><img id="logo" src="../images/logo_trans.png" alt="logo"></a>
+            <h2>About Us</h2>
+        </div>
+        <hr>
+
+        <div class="trainers">
+            <div class="ata" style="margin-left: 7px;">
+                <h3>Atahan TURGUT</h3> <hr>
+                <img src="../images/tolga2.jpeg" alt="ata_picture">
+                <p>
+                    Atahan TURGUT was born in 2003. He started playing basketball when he was 9.
+                </p>
+                <p>
+                    He has played for some big Turkish clubs such as Fenerbahçe Beko, Karşıyaka, Mavibirlik and Söğütsen Seramik.
+                </p>
+                <p>
+                    He is 2 time Scoring leader in Parkur, Champion of 2021-2022 U21 Tournament and ABEL.
+                </p>
+                <p>He has been doing coaching for 5 years</p>
+               
+            </div>
+            <div class="tolga">
+                <h3>Tolga ÖZGEN</h3><hr>
+                <img src="../images/tolga1.jpeg" alt="tolga_picture">
+                <p>
+                    Tolga Özgen was born in 2002. He started playing basketball when he was 8.
+                </p>
+                <p>
+                    He has played for some big Turkish clubs such as Beşiktaş,Anadolu Efes and Söğütsen Seramik.
+                </p>
+                <p>
+                    He is 4 time assist leader in Parkur and MVP of 2021 tournament, Champion of 2021-2022 U21 Tournament and ABEL.
+                </p>
+                <p>He has been doing coaching for 3 years</p>
+                
+            </div>
+            <div class="osman" style="margin-right: 7px;">
+                <h3>Osman Gazi ATALAY</h3><hr>
+                <img src="../images/osman1.jpg" alt="osman_picture">
+                <p>
+                    Osman Gazi ATALAY was born in 2003. He started playing basketball when he was 10.
+                </p>
+                <p>
+                    He has played for some big Turkish clubs such as Beşiktaş,Mavibirlik and Söğütsen Seramik.
+                </p>
+                <p>
+                    He is the MVP of U16 tournament and considered as the best basketball player in Parkur, Champion of 2021-2022 U21 Tournament and ABEL.
+                </p>
+                <p>
+                    He has been doing coaching for 2 years
+                </p>
+                
+            </div>
+        </div>
+
+        <footer>
+           <center> Copyright © OGA Production</center>
+        </footer>
+
+        
+        
+</body>
+</html>

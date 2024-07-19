@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolga Özgen</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        html {
+            height: 122%;
+        }
+        body {
+            background-image: url("../images/background.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+        }
+        #logo {
+            width: 150px;
+        }
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2 {
+            color: white;
+            font-weight: bold;
+            font-size: 48px;
+        }
+        .container {
+            margin-left: 1px;
+            margin-right: 1px;
+            position: absolute;
+            top: 160px;
+            width: 100%;
+            height: max-content;
+            display: flex;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+        .box {
+            flex: 1;
+            height: fit-content;
+        }
+        .box img {
+            float: left;
+            height: 150px;
+            width: 100%;
+            object-position: 50% 50%;
+        }
+        .box p {
+            color: whitesmoke;
+            width: 100%;
+            height: 100%;
+        }
+        .box h3 {
+            color: aqua;
+            font-weight: bold;
+        }
+        footer{
+            color:aqua;
+            position: absolute;
+            left: 40%;
+            right: 40%;
+            top:665px;
+            width: max-content;
+        }
+        
+        @media (max-width: 940px) {
+            
+            .container{
+                flex-direction: column;
+                gap: 10px;
+            }
+            .container img {
+                width: 30%;
+                margin-right: 15px;
+            }
+            .container h3{
+                text-align: left;
+                margin-bottom: 5px;
+            }
+            html{
+                height: 185%;
+            }
+            footer{
+                top:1000px;
+                width: max-content;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <a href="../index.html"><img id="logo" src="../images/logo_trans.png" alt="logo"></a>
+        <h2>Service</h2>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="box">
+            <center><h3>Skill Development</h3></center>
+            <img src="../images/skillimprov.jpg" alt="picture">
+            <p>
+                A basketball personal trainer focuses on improving specific skills by
+                providing targeted drills and exercises. For shooting, they work on proper form,
+                shot selection, and consistency from various distances and angles. 
+                Dribbling training includes enhancing ball-handling techniques, speed, and control under pressure.
+                For passing, the trainer emphasizes accuracy, timing, and court vision,
+                while defensive techniques cover positioning, footwork, and anticipation to effectively guard opponents.
+            </p>
+        </div>
+        <div class="box">
+            <center><h3>Strength and Conditioning</h3></center>
+            <img src="../images/strength.jpg" alt="picture">
+            <p>
+                A basketball personal trainer designs and implements comprehensive
+                strength training and conditioning programs tailored to the athlete's needs.
+                These programs focus on building overall strength, particularly
+                in the core and lower body, to improve explosive power and stability.
+                Conditioning drills are incorporated to boost cardiovascular endurance, 
+                allowing players to maintain high performance throughout the game.
+            </p>
+        </div>
+        <div class="box">
+            <center><h3>Game Strategy and IQ</h3></center>
+            <img src="../images/basketballıq.jpg" alt="picture">
+            <p>
+                A basketball personal trainer helps the player understand game strategies by
+                breaking down offensive and defensive plays, teaching them how to read the game and
+                anticipate opponents' moves. Through situational drills and scrimmages, the trainer 
+                aids in improving the player’s decision-making skills under pressure, ensuring they
+                make smart, quick choices during games. By analyzing game footage and discussing 
+                different scenarios, the trainer fosters a higher basketball IQ,
+                enabling the player to better understand positioning, timing, and overall game flow.
+            </p>
+        </div>
+        <div class="box">
+            <center><h3>Nutritional Guidance</h3></center>
+            <img src="../images/healty.jpg" alt="picture">
+            <p>
+                A basketball personal trainer offers tailored advice on proper nutrition,
+                emphasizing the importance of a balanced diet rich in proteins, carbohydrates,
+                and healthy fats to fuel the body for optimal performance.
+                They also educate players on the timing of meals and snacks
+                to ensure energy levels are maintained before, during, and after practices or games.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <center> Copyright © OGA Production</center>
+     </footer>
+</body>
+</html>

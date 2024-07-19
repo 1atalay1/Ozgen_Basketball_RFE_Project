@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgen Basketball</title>
+    <style>
+          *{
+            margin: 0px;
+            padding: 0px;
+          }
+
+            body {
+                background-image: url('../images/background.webp');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                min-height: 100vh;
+               
+               
+            }
+
+            #logo{
+            width: 150px;
+           
+            }
+            .head{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 15%;
+          
+
+            }
+            h2{
+            color:white;
+            font-weight: bold;
+            font-size: 48px;
+            }
+            .container{
+                margin-top: 20px;
+                width: 100%;
+                display: flex;
+                background-color: transparent;
+                position: absolute;
+                gap: 10%;
+                text-align: center;
+                height: 100%;
+            }
+
+            .contact_info{
+                position: absolute;
+                width: 40%;
+                left: 5%;
+                flex: 1;
+                text-align: left;
+                top: 15%;
+                height: 80%;
+                
+            }
+            .contact_info i{
+                margin-left: 20%;
+            }
+            .address{
+                position: absolute;
+                width: 40%;
+                left: 55%;
+                flex:1;
+                top:15%;
+                height: 80%;
+            
+                
+                
+            }
+            .title{
+                color:aquamarine;
+                text-align: center;
+                font-size: 28px;
+                
+            }
+            i{
+                color:white;
+                font-size: 3rem;
+                margin-right: 1rem;
+               
+          
+            }
+            a{
+                color:white;
+                text-decoration: none;
+                font-size: 1.5rem;
+                margin-left: 0.10rem;
+                display: inline-block;
+                vertical-align:super;
+                transition: color 0.3s, text-decoration 1s;
+            }
+            .contact_info a:hover{
+                color: aqua;
+                text-decoration: underline;
+            }
+            span{
+                color:white;
+                text-decoration: none;
+                font-size: 1.5rem;
+                margin-left: 0.10rem;
+                display: inline-block;
+                vertical-align:super;
+            }
+            .foot{
+                display: flex;
+                position: absolute;
+                width: 100%;
+                top: 95%;
+                justify-content: center;
+                height: 5%;
+                color: aquamarine;
+                margin-top: 10px;
+                
+            }
+            @media(max-width:680px){
+                .container{
+                    gap: 6%;
+                    height: 550px;
+                }
+                .contact_info{
+                    height: 420px;
+                    margin-top: 20px;  
+                    left: 3%;
+                    width: 44%;
+                    
+                }
+                
+                .contact_info i{
+                margin-left: 5%;
+                font-size: 1.5rem;
+                margin-right: 0.5rem;
+                }
+                .contact_info a{
+                    font-size: 0.88rem;
+                }
+                .address{
+                    margin-top: 20px;
+                    height: 420px;
+                    width: 44%;
+            
+                }
+                .address i {
+                    color:white;
+                    font-size: 1.5rem;
+                    margin-right: 0.5rem;
+                }
+                .address span{
+                    font-size: 0.88rem;
+                }
+                .address h3{
+                   
+                    width: 100%;
+                    height: max-content;
+                }
+                .address iframe{
+                    
+                    width: 100%;
+                    height: 300px;
+                }
+                .foot{
+                    margin-top: 15px;
+                }
+        }
+
+        @media(min-width:681px) and (max-width:1114px){
+                .container{
+                    gap:4%
+                }
+                .contact_info{
+                    height: 180px;
+                    margin-top: 20px;  
+                    left: 1%;
+                    width: 47%;
+                    
+                }
+
+                .contact_info i{
+                margin-left: 5%;
+                font-size:2rem;
+                margin-right: 0.75rem;
+                }
+
+                .contact_info a{
+                    font-size: 1.30rem;
+                }
+
+                .address{
+                    margin-top: 20px;
+                    height: 420px;
+                    width: 47%;
+                    right: 1%;
+                    height: 180px;
+                    
+                }
+                .address i{
+                    font-size:2rem;
+                margin-right: 0.75rem;
+                }
+                .address iframe{
+                    width: 90%;
+                    height: 200px;
+               
+                }
+                .address h3{
+                   
+                   width: 100%;
+                   height: max-content;
+               }
+
+                
+                .foot{
+                    margin-top: 0px;
+                }
+        }
+
+            
+       
+            
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    
+    <div class="container">
+
+        <div class="head">
+            <a href="../index.html"><img id="logo" src="../images/logo_trans.png" alt="logo"></a>
+            <h2>Contact</h2>
+        </div>
+        
+        
+        <div class="contact_info">
+            <h3 class="title">Contact Information</h3>
+            <i class="fa-regular fa-envelope fa-shake"></i><a href="mailto:ataosmtol@basketball.com">ataosmtol@basketball.com</a>
+            <br><br>
+            <i class="fa-sharp fa-solid fa-phone-volume fa-shake"></i><a href="tel:+905555555555">+905123129752</a>
+            <br><br>
+            <i class="fa-brands fa-instagram fa-shake"></i><a href="">@AOGAATTÖ_basketball_pt</a>
+            <br><br>
+            <i class="fa-brands fa-instagram fa-shake"></i><a href="">@atahn3</a> <br> <br>
+            <i class="fa-brands fa-instagram fa-shake"></i><a href="">@1atalay1</a> <br> <br>
+            <i class="fa-brands fa-instagram fa-shake"></i><a href="">@tolgaozgen7</a>
+
+        </div>
+        <div class="address">
+            <h3 class="title">Address</h3>
+            <i class="fa-solid fa-location-dot fa-shake"></i> <span>Yücetepe, 84. Cd. No:68, 06570 Çankaya/Ankara</span>
+           <br>
+         <iframe style="margin-top: 10px;" width="100%" height="70%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=An%C4%B1ttepe%20Spor%20Tesisleri%20Y%C3%BCcetepe,%2006580%20%C3%87ankaya/Ankara+(My%20Business%20Name)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe>
+        </div>
+
+        <div class="foot">
+            <footer>
+                Copyright © OGA Production
+             </footer>
+        </div>
+    </div>
+
+    
+    
+    
+</body>
+</html>
